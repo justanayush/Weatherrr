@@ -1,0 +1,89 @@
+body{
+    background: url(https://img.freepik.com/free-vector/realistic-tropical-leaves-background_23-2148409316.jpg?w=996&t=st=1717242642~exp=1717243242~hmac=377fd4a5aac3d7c636bbba36424cbd10cbe47fbca1f8b8b5f35476b13edd0ec3);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    font-family: "Karla";
+}
+
+.weather-app{
+    background-color: aliceblue;
+    display: flex;
+    align-items: center;
+    width: 90%;
+    text-align: center;
+    width: 800px;
+    padding: 20px 0;
+    border-radius: 15px;
+}
+
+.search-bar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-left: 25px;
+}
+
+.search-bar button{
+    background:none;
+    border-radius: 50%;
+    border: none;
+    cursor: pointer;
+    pointer-events: none;
+}
+
+.search-bar button img{
+    width: 40px;
+    background-color: white;
+    border-radius: 50%;
+    border: none;
+    margin-right: 20px;
+}
+
+.search-bar input{
+    flex:1;
+    width: 300px;
+    height: 40px;
+    margin-right: 15px;
+    border-radius: 15px;
+    border: none;
+}
+
+.weather-details{
+    border-left: 2px solid black;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.weather-icon img{
+    margin-top: -35px;
+    width: 70%;
+    height: 70%;
+    margin-bottom: -100px;
+}
+.other-details{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 20px;
+    font-size: 20px;
+}
+
+.city-details .temp{
+    font-size: 70px;
+    margin-bottom: -10px;
+}
+.city-details .city{
+    font-size: 25px;
+}
+
+.humidity img{
+    width: 90px;
+    margin-bottom: -10px;
+}
+
+.wind-speed img{
+    width: 90px;
+    margin-bottom: -10px;
+}
