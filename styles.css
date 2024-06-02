@@ -132,8 +132,11 @@ h1{
         margin-bottom: 25px;
     }
     .search-bar{
-        width: 340px;
+        width: 338px;
         padding: 15px;
+        margin-right: auto;
+        margin-left: auto;
+        align-items: center;
     }
     .weather-app{
         display: flex;
@@ -144,8 +147,13 @@ h1{
     .weather-details{
         border-left: none;
         border-top: 1px solid yellowgreen;
-        width:390px;
-        padding-left: 6px;
+        width:328px;
+        padding-left: 8px;
         padding-right: 8px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    .glass-icon{
+        margin-right: -20px;
     }
   }

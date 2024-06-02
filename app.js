@@ -32,6 +32,7 @@ async function showWeather(cityName){
         loader.style.display = "none";
         alert("Enter correct city name please !!!")
     }else{
+        console.log("Group")
         loader.style.display = "none";
         var data = await response.json();
         let weatherImg = data.weather[0].main;
@@ -43,7 +44,7 @@ async function showWeather(cityName){
         humidity.innerHTML = data.main.humidity + " %";
         windSpeed.innerHTML = data.wind.speed + " km/hr"
         cityLoc.innerHTML = data.name + ", " + data.sys.country;
-        app.style.width = window.innerWidth > 768 ? "800px" : "400px";
+        app.style.width = window.innerWidth > 768 ? "800px" : "358px";
         details.style.display = "block";
     }
 
