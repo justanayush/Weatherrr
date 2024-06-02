@@ -5,15 +5,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Weatherrr</title>
     <link rel="stylesheet" href="styles.css">
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&display=swap" rel="stylesheet">
 </head>
 <body>
+    <h1 class="head">Weatherrr</h1>
     <div class="weather-app">
         <div class="search-bar">
-            <input type="search" name="search" id="search" placeholder="enter city name">
+            <input type="search" name="search" id="search" placeholder="   enter city name">
             <button class="glass-icon"><img src="images/glass.png" alt=""></button>
+            <p class="loader"></p>
         </div>
         <div class="weather-details">
             <div class="main-details">
@@ -21,19 +24,23 @@
                 <div class="city-details">
                     <p class="temp">45°C</p>
                     <p class="city">Delhi</p>
-                    <p>Clear Sky</p>
+                    <p class="weather-description">Clear Sky</p>
                 </div>
             </div>
             <div class="other-details">
                 <span class="humidity">
                     <img src="images/humidity.png" alt="">
+                    
                     <p>Humidity</p>
-                    <p>50%</p>
+                    <p class="humid">50 %</p>
+                
                 </span>
                 <span class="wind-speed">
                     <img src="images/wind.png" alt="">
+                  
                     <p>Wind Speed</p>
-                    <p>24 km/hr</p>
+                    <p class="speed">24 km/hr</p>
+             
                 </span>
             </div>
         </div>
