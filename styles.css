@@ -120,6 +120,32 @@ h1{
     margin-bottom: -12px;
 }
 
-  
-
- 
+@media only screen and (max-width: 768px) {
+    body{
+        display: flex;
+        flex-direction: column;
+    }
+    h1{
+        width: fit-content;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 25px;
+    }
+    .search-bar{
+        width: 340px;
+        padding: 15px;
+    }
+    .weather-app{
+        display: flex;
+        flex-direction: column;
+        width: fit-content;
+        padding: 0px;
+    }
+    .weather-details{
+        border-left: none;
+        border-top: 1px solid yellowgreen;
+        width:390px;
+        padding-left: 6px;
+        padding-right: 8px;
+    }
+  }

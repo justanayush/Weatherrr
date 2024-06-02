@@ -43,7 +43,7 @@ async function showWeather(cityName){
         humidity.innerHTML = data.main.humidity + " %";
         windSpeed.innerHTML = data.wind.speed + " km/hr"
         cityLoc.innerHTML = data.name + ", " + data.sys.country;
-        app.style.width = "800px";
+        app.style.width = window.innerWidth > 768 ? "800px" : "400px";
         details.style.display = "block";
     }
 
