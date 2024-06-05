@@ -80,6 +80,7 @@ h1{
     margin-right: 15px;
     border-radius: 10px;
     border: none;
+    padding-left: 10px;
 }
 
 .weather-details{
