@@ -32,7 +32,6 @@ async function showWeather(cityName){
         loader.style.display = "none";
         alert("Enter correct city name please !!!")
     }else{
-        console.log("Group")
         loader.style.display = "none";
         var data = await response.json();
         let weatherImg = data.weather[0].main;
